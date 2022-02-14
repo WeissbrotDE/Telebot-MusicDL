@@ -3,14 +3,14 @@ import time
 from telethon import TelegramClient
 from telethon.tl.types import InputMessagesFilterMusic
 
-api_id = 1234 #Here Goes the API ID
-api_hash = "asdfghjklxcvbnm124578"  #API HASH
+api_id = 5262984 #Here Goes the API ID
+api_hash = "6073112b04527a8f238ea836988f56cb"  #API HASH
 
 client = TelegramClient("anon", api_id, api_hash)
 
 link = "https://deezer.com/track/1234567"   #A valid deezer or spotify link
 path = "dls/"
-bot = "FusionDL_Bot"
+bot = "BrotisMusicBot"
 
 
 async def send():
